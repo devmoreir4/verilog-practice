@@ -1,0 +1,21 @@
+module DriverTecladoTB();
+
+	reg [3:0] linha, coluna;
+	
+	wire [3:0] tecla;
+	
+	DriverTeclado driver(linha, coluna, tecla);
+	
+	inicial begin
+	
+		linha <= 4'b0000;
+		coluna <= 4'b0000;
+		
+		#50;
+		
+		linha <= 4'b0000;
+		coluna <= 4'b0000;
+	
+	end
+
+endmodule
