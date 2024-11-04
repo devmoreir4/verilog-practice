@@ -1,6 +1,6 @@
 Flow report for CodTeclado
-Mon Oct 21 19:37:49 2024
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Mon Oct 21 19:27:02 2024
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
 ---------------------
@@ -40,8 +40,8 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Mon Oct 21 19:37:49 2024       ;
-; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Flow Status                 ; Successful - Mon Oct 21 19:27:02 2024       ;
+; Quartus Prime Version       ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name               ; CodTeclado                                  ;
 ; Top-level Entity Name       ; CodificadorGray                             ;
 ; Family                      ; Cyclone V                                   ;
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/21/2024 19:37:41 ;
+; Start date & time ; 10/21/2024 19:26:56 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CodTeclado          ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-----------------+-------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name     ; Section Id        ;
 +--------------------------------------+----------------------------------------+---------------+-----------------+-------------------+
-; COMPILER_SIGNATURE_ID                ; 123719801385423.172955026109300        ; --            ; --              ; --                ;
+; COMPILER_SIGNATURE_ID                ; 1097930105871.172954961628624          ; --            ; --              ; --                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --              ; CodificadorGrayTB ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --              ; DriverTecladoTB   ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; CodificadorGrayTB                      ; --            ; --              ; eda_simulation    ;
@@ -104,8 +104,8 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:09     ; 1.0                     ; 4767 MB             ; 00:00:17                           ;
-; Total                  ; 00:00:09     ; --                      ; --                  ; 00:00:17                           ;
+; Analysis & Elaboration ; 00:00:07     ; 1.0                     ; 4770 MB             ; 00:00:05                           ;
+; Total                  ; 00:00:07     ; --                      ; --                  ; 00:00:05                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -114,7 +114,7 @@ refer to the applicable agreement for further details.
 +------------------------+------------------+------------+------------+----------------+
 ; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +------------------------+------------------+------------+------------+----------------+
-; Analysis & Elaboration ; MI-061-022007    ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Elaboration ; Yoda             ; Windows 10 ; 10.0       ; x86_64         ;
 +------------------------+------------------+------------+------------+----------------+
 
 

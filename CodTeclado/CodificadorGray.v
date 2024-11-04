@@ -1,12 +1,13 @@
 module CodificadorGray (tecla, codigo);
 
-	input[3:0] tecla;
+	input [3:0] tecla;
 	
 	output reg [3:0] codigo;
 	
 	always@* begin
-		
+	
 		case(tecla)
+		
 			4'b0000: codigo <= 4'b0000;
 			4'b0001: codigo <= 4'b0001;
 			4'b0010: codigo <= 4'b0011;
@@ -23,9 +24,9 @@ module CodificadorGray (tecla, codigo);
 			4'b1101: codigo <= 4'b1011;
 			4'b1110: codigo <= 4'b1001;
 			4'b1111: codigo <= 4'b1000;
-			
-		endcase
 		
+		endcase
+	
 	end
 
-endmodule
+endmodule 

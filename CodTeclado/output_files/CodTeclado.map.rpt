@@ -1,6 +1,6 @@
 Analysis & Elaboration report for CodTeclado
-Mon Oct 21 19:37:49 2024
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Mon Oct 21 19:27:02 2024
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
 ---------------------
@@ -36,8 +36,8 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Mon Oct 21 19:37:49 2024       ;
-; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Analysis & Elaboration Status ; Successful - Mon Oct 21 19:27:02 2024       ;
+; Quartus Prime Version         ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                 ; CodTeclado                                  ;
 ; Top-level Entity Name         ; CodificadorGray                             ;
 ; Family                        ; Cyclone V                                   ;
@@ -56,8 +56,8 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 6           ;
-; Maximum allowed            ; 6           ;
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 10          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -159,24 +159,24 @@ refer to the applicable agreement for further details.
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
-    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Oct 21 19:37:40 2024
+    Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+    Info: Processing started: Mon Oct 21 19:26:55 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CodTeclado -c CodTeclado --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (20030): Parallel compilation is enabled and will use 10 of the 10 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file codteclado.v
-    Info (12023): Found entity 1: CodTeclado File: C:/Users/Aluno/Desktop/Quartus Project/CodTeclado/CodTeclado.v Line: 1
+    Info (12023): Found entity 1: CodTeclado File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodTeclado.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file driverteclado.v
-    Info (12023): Found entity 1: DriverTeclado File: C:/Users/Aluno/Desktop/Quartus Project/CodTeclado/DriverTeclado.v Line: 1
+    Info (12023): Found entity 1: DriverTeclado File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DriverTeclado.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file codificadorgray.v
-    Info (12023): Found entity 1: CodificadorGray File: C:/Users/Aluno/Desktop/Quartus Project/CodTeclado/CodificadorGray.v Line: 1
+    Info (12023): Found entity 1: CodificadorGray File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodificadorGray.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file decodificadorgray.v
-    Info (12023): Found entity 1: DecodificadorGray File: C:/Users/Aluno/Desktop/Quartus Project/CodTeclado/DecodificadorGray.v Line: 1
+    Info (12023): Found entity 1: DecodificadorGray File: C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DecodificadorGray.v Line: 1
 Info (12127): Elaborating entity "CodificadorGray" for the top level hierarchy
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4767 megabytes
-    Info: Processing ended: Mon Oct 21 19:37:49 2024
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:17
+    Info: Peak virtual memory: 4770 megabytes
+    Info: Processing ended: Mon Oct 21 19:27:02 2024
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:05
 
 

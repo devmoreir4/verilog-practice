@@ -6,9 +6,9 @@ tecla[2] => Decoder0.IN1
 tecla[2] => Decoder1.IN0
 tecla[3] => Decoder0.IN0
 tecla[3] => codigo[3].DATAIN
-codigo[0] <= codigo.DB_MAX_OUTPUT_PORT_TYPE
-codigo[1] <= codigo.DB_MAX_OUTPUT_PORT_TYPE
-codigo[2] <= codigo.DB_MAX_OUTPUT_PORT_TYPE
-codigo[3] <= tecla[3].DB_MAX_OUTPUT_PORT_TYPE
+codigo[0] << codigo.DB_MAX_OUTPUT_PORT_TYPE
+codigo[1] << codigo.DB_MAX_OUTPUT_PORT_TYPE
+codigo[2] << codigo.DB_MAX_OUTPUT_PORT_TYPE
+codigo[3] << tecla[3].DB_MAX_OUTPUT_PORT_TYPE
 
 

@@ -1,5 +1,5 @@
 module CodificadorGray (tecla, codigo);
 
-	input[3:0] tecla;
+	input [3:0] tecla;
 
-endmodule
+endmodule 

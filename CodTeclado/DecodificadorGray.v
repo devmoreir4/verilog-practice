@@ -26,4 +26,4 @@ module DecodificadorGray(codigo, sete_seg);
 		endcase
 	end
 
-endmodule
+endmodule 

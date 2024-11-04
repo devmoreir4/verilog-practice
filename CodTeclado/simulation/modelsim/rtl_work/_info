@@ -7,50 +7,50 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Aluno/Desktop/Quartus Project/CodTeclado/simulation/modelsim
+Z0 dC:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/simulation/modelsim
 vCodificadorGray
-Z1 !s110 1729548352
+Z1 !s110 1729547571
 !i10b 1
-!s100 X:_aQ^LiOfC@=F4V`EOGK2
-IUn4VQN8]NN4OgU^WnSP:c3
+!s100 BJAZ]=I^_59z3JoQY999E1
+IV@@GZ>?hK4e8m1RYob?4^3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1729548321
-8C:/Users/Aluno/Desktop/Quartus Project/CodTeclado/CodificadorGray.v
-FC:/Users/Aluno/Desktop/Quartus Project/CodTeclado/CodificadorGray.v
+w1729544364
+8C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodificadorGray.v
+FC:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodificadorGray.v
 L0 1
-Z4 OV;L;10.5b;63
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1729548352.000000
-!s107 C:/Users/Aluno/Desktop/Quartus Project/CodTeclado/CodificadorGray.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Aluno/Desktop/Quartus Project/CodTeclado|C:/Users/Aluno/Desktop/Quartus Project/CodTeclado/CodificadorGray.v|
+Z4 !s108 1729547571.000000
+!s107 C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodificadorGray.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado|C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodificadorGray.v|
 !i113 1
-Z6 o-vlog01compat -work work
-Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/Aluno/Desktop/Quartus Project/CodTeclado}
-Z8 tCvgOpt 0
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado}
+Z7 tCvgOpt 0
 n@codificador@gray
 vCodificadorGrayTB
 R1
 !i10b 1
-!s100 <;nHjkE:FRY>UT8G<Cila1
-IoGOQNh=NaO?YRzKdkPXmE0
+!s100 a8Ra12UGgJToJOkL[ZfU;2
+Igb1c]=86^fKLUdZ=U>lA82
 R2
 R0
-R3
-8C:/Users/Aluno/Desktop/Quartus Project/CodTeclado/CodificadorGrayTB.v
-FC:/Users/Aluno/Desktop/Quartus Project/CodTeclado/CodificadorGrayTB.v
+w1729547524
+8C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodificadorGrayTB.v
+FC:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodificadorGrayTB.v
 L0 1
-R4
+R3
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/Aluno/Desktop/Quartus Project/CodTeclado/CodificadorGrayTB.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Aluno/Desktop/Quartus Project/CodTeclado|C:/Users/Aluno/Desktop/Quartus Project/CodTeclado/CodificadorGrayTB.v|
+R4
+!s107 C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodificadorGrayTB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado|C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodificadorGrayTB.v|
 !i113 1
+R5
 R6
 R7
-R8
 n@codificador@gray@t@b
