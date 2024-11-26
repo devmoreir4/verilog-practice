@@ -1,3 +1,0 @@
-module DecodificadorGray(codigo, sete_seg);
-
-endmodule 
