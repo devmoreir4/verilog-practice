@@ -1,0 +1,19 @@
+|MemoriaROM
+E[0] => dados.RADDR
+E[1] => dados.RADDR1
+E[2] => dados.RADDR2
+E[3] => ~NO_FANOUT~
+E[4] => ~NO_FANOUT~
+E[5] => ~NO_FANOUT~
+E[6] => ~NO_FANOUT~
+E[7] => ~NO_FANOUT~
+D[0] << dados.DATAOUT
+D[1] << dados.DATAOUT1
+D[2] << dados.DATAOUT2
+D[3] << dados.DATAOUT3
+D[4] << dados.DATAOUT4
+D[5] << dados.DATAOUT5
+D[6] << dados.DATAOUT6
+D[7] << dados.DATAOUT7
+
+
