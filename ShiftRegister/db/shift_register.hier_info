@@ -1,0 +1,16 @@
+|shift_register
+Clk => Q[0]~reg0.CLK
+Clk => Q[1]~reg0.CLK
+Clk => Q[2]~reg0.CLK
+Clk => Q[3]~reg0.CLK
+Reset => Q[0]~reg0.ACLR
+Reset => Q[1]~reg0.ACLR
+Reset => Q[2]~reg0.ACLR
+Reset => Q[3]~reg0.ACLR
+ShiftIn => Q[0]~reg0.DATAIN
+Q[0] << Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] << Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] << Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] << Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
