@@ -1,0 +1,11 @@
+|BCDXS3_to_BCD6311
+bcd_xs3[0] => Decoder0.IN3
+bcd_xs3[1] => Decoder0.IN2
+bcd_xs3[2] => Decoder0.IN1
+bcd_xs3[3] => Decoder0.IN0
+bcd_6311[0] << WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+bcd_6311[1] << WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+bcd_6311[2] << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+bcd_6311[3] << bcd_6311.DB_MAX_OUTPUT_PORT_TYPE
+
+
