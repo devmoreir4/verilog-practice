@@ -1,0 +1,8 @@
+|demux1x2
+Y => A$latch.DATAIN
+Y => B$latch.DATAIN
+Es => Decoder0.IN0
+A << A$latch.DB_MAX_OUTPUT_PORT_TYPE
+B << B$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

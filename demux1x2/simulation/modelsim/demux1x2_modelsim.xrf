@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Carlos/Desktop/teste/demux1x2.v
+source_file = 1, C:/Users/Carlos/Desktop/teste/db/demux1x2.cbx.xml
+design_name = demux1x2
+instance = comp, \A~output , A~output, demux1x2, 1
+instance = comp, \B~output , B~output, demux1x2, 1
+instance = comp, \Y~input , Y~input, demux1x2, 1
+instance = comp, \Es~input , Es~input, demux1x2, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, demux1x2, 1
