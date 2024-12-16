@@ -1,0 +1,38 @@
+|BitParidade
+E[0] => E[0].IN2
+E[1] => E[1].IN2
+E[2] => E[2].IN2
+E[3] => E[3].IN2
+E[4] => E[4].IN2
+E[5] => E[5].IN2
+E[6] => E[6].IN2
+E[7] => E[7].IN2
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+T <= VerificadorBitParidade:verificador.T
+
+
+|BitParidade|GeradorBitParidade:gerador
+E[0] => WideXor0.IN0
+E[1] => WideXor0.IN1
+E[2] => WideXor0.IN2
+E[3] => WideXor0.IN3
+E[4] => WideXor0.IN4
+E[5] => WideXor0.IN5
+E[6] => WideXor0.IN6
+E[7] => WideXor0.IN7
+P <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BitParidade|VerificadorBitParidade:verificador
+E[0] => WideXor0.IN0
+E[1] => WideXor0.IN1
+E[2] => WideXor0.IN2
+E[3] => WideXor0.IN3
+E[4] => WideXor0.IN4
+E[5] => WideXor0.IN5
+E[6] => WideXor0.IN6
+E[7] => WideXor0.IN7
+P => T.IN1
+T <= T.DB_MAX_OUTPUT_PORT_TYPE
+
+

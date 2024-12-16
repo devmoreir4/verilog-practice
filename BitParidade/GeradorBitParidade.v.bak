@@ -1,0 +1,9 @@
+module GeradorBitParidade (E, P);
+    input [7:0] E;        // Entrada: E (vetor de 8 bits)
+    output reg P;         // Saída: P (bit de paridade)
+
+    always @* 
+    begin
+        P <= ^E;
+    end
+endmodule
