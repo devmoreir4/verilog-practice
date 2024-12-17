@@ -1,0 +1,8 @@
+module parity_generator(
+	input [7:0] data_in, // dados de 8 bits
+	output parity_bit // bit de paridade par
+
+);
+	assign parity_bit = ^data_in; // XOR de todos os bits de paridade par
+
+endmodule

@@ -1,0 +1,13 @@
+module demux_1to8(
+	input [7:0] data_in, // Dados recebidos
+   input [2:0] address, // Endereço para selecionar o sensor
+   output reg [7:0] sensor_out[7:0] // Dados distribuídos
+);
+
+	integer i;
+	always @(*) begin
+		for(i = 0; i < 8; i = i + 1)
+			sensor_out[i] = 8'b0; // Inicializa os dados
+		sensor_out[address] = data_in; // Armazena os dados no sensor correspondente
+	end
+endmodule 

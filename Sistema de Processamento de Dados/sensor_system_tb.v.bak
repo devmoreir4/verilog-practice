@@ -1,0 +1,42 @@
+module sensor_system_tb;
+    reg [7:0] sensor_data[7:0]; // Dados dos sensores
+    reg clk;                   // Clock
+    wire [10:0] packet_out;    // Pacote transmitido
+    wire [7:0] sensor_out[7:0]; // Dados processados
+    wire error;                // Erro de paridade
+
+    // Instanciação do Top-Level
+    sensor_system uut (
+        .sensor_data(sensor_data),
+        .clk(clk),
+        .packet_out(packet_out),
+        .sensor_out(sensor_out),
+        .error(error)
+    );
+
+    // Clock Generator
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk; // Clock com período de 10 unidades
+    end
+
+    // Inicialização dos dados dos sensores
+    initial begin
+        sensor_data[0] = 8'b10101010;
+        sensor_data[1] = 8'b11001100;
+        sensor_data[2] = 8'b11110000;
+        sensor_data[3] = 8'b00001111;
+        sensor_data[4] = 8'b00110011;
+        sensor_data[5] = 8'b01010101;
+        sensor_data[6] = 8'b10011001;
+        sensor_data[7] = 8'b01100110;
+
+        #100; // Simula por 100 unidades de tempo
+        $finish;
+    end
+
+    // Monitoramento
+    initial begin
+        $monitor("Time: %0d | Packet: %b | Error: %b", $time, packet_out, error);
+    end
+endmodule

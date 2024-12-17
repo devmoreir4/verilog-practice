@@ -1,0 +1,10 @@
+module mux_8to1(
+	input [7:0] sensor_data[7:0], // dados de entrada dos sensores
+	input [2:0] address, // endereço de 3 bits
+	output [7:0] mux_out // saida dos dados selecionados 
+
+);
+
+	assign mux_out = sensor_data[address]; // selecionando um sensor com base no endereco
+	
+endmodule

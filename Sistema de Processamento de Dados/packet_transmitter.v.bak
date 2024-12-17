@@ -1,0 +1,8 @@
+module packet_transmitter(
+	input [7:0] data_in,      // Dados do sensor
+   input [2:0] address,      // Endereço do sensor
+   input parity_bit,         // Bit de paridade
+   output [10:0] packet_out  // Pacote de 11 bits: {dados, paridade, endereço} 
+);
+	assign packet_out = {data_in, parity_bit, address};
+endmodule 

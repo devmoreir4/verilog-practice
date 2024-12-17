@@ -1,0 +1,8 @@
+module parity_checker(
+	input [7:0] data_in,     // Dados recebidos
+   input parity_bit,        // Bit de paridade recebido
+   output error             // Erro detectado (1 = erro, 0 = sem erro)
+);
+
+	assign erro = (parity_bit != ^da ta_in); // Verificando o bit de paridade
+endmodule 

@@ -1,0 +1,122 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do sensor_system_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/Sistema {C:/intelFPGA_lite/18.1/Sistema/sensor_system.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:22:53 on Dec 16,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/Sistema" C:/intelFPGA_lite/18.1/Sistema/sensor_system.v 
+# -- Compiling module sensor_system
+# 
+# Top level modules:
+# 	sensor_system
+# End time: 15:22:53 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/Sistema {C:/intelFPGA_lite/18.1/Sistema/mux_8to1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:22:53 on Dec 16,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/Sistema" C:/intelFPGA_lite/18.1/Sistema/mux_8to1.v 
+# -- Compiling module mux_8to1
+# 
+# Top level modules:
+# 	mux_8to1
+# End time: 15:22:53 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/Sistema {C:/intelFPGA_lite/18.1/Sistema/parity_generator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:22:54 on Dec 16,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/Sistema" C:/intelFPGA_lite/18.1/Sistema/parity_generator.v 
+# -- Compiling module parity_generator
+# 
+# Top level modules:
+# 	parity_generator
+# End time: 15:22:54 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/Sistema {C:/intelFPGA_lite/18.1/Sistema/packet_transmitter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:22:54 on Dec 16,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/Sistema" C:/intelFPGA_lite/18.1/Sistema/packet_transmitter.v 
+# -- Compiling module packet_transmitter
+# 
+# Top level modules:
+# 	packet_transmitter
+# End time: 15:22:54 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/Sistema {C:/intelFPGA_lite/18.1/Sistema/demux_1to8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:22:54 on Dec 16,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/Sistema" C:/intelFPGA_lite/18.1/Sistema/demux_1to8.v 
+# -- Compiling module demux_1to8
+# 
+# Top level modules:
+# 	demux_1to8
+# End time: 15:22:54 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/Sistema {C:/intelFPGA_lite/18.1/Sistema/parity_checker.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:22:54 on Dec 16,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/Sistema" C:/intelFPGA_lite/18.1/Sistema/parity_checker.v 
+# -- Compiling module parity_checker
+# 
+# Top level modules:
+# 	parity_checker
+# End time: 15:22:54 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/Sistema/sensor_system.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:08 on Dec 16,2024
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/Sistema/sensor_system.v 
+# -- Compiling module sensor_system
+# 
+# Top level modules:
+# 	sensor_system
+# End time: 15:23:08 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/Sistema/sensor_system_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:23:10 on Dec 16,2024
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/Sistema/sensor_system_tb.v 
+# -- Compiling module sensor_system_tb
+# 
+# Top level modules:
+# 	sensor_system_tb
+# End time: 15:23:10 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.sensor_system_tb
+# vsim work.sensor_system_tb 
+# Start time: 15:23:14 on Dec 16,2024
+# Loading work.sensor_system_tb
+# Loading work.sensor_system
+# Loading work.mux_8to1
+# Loading work.parity_generator
+# Loading work.packet_transmitter
+# Loading work.demux_1to8
+# Loading work.parity_checker
+add wave -position insertpoint sim:/sensor_system_tb/*
+run
+# Time: 0 | Packet: 01010100000 | Error: z
+# Time: 5 | Packet: 10011000001 | Error: z
+# Time: 15 | Packet: 11100000010 | Error: z
+# Time: 25 | Packet: 00011110011 | Error: z
+# Time: 35 | Packet: 01100110100 | Error: z
+# Time: 45 | Packet: 10101010101 | Error: z
+# Time: 55 | Packet: 00110010110 | Error: z
+# Time: 65 | Packet: 11001100111 | Error: z
+# Time: 75 | Packet: 01010100000 | Error: z
+# Time: 85 | Packet: 10011000001 | Error: z
+# Time: 95 | Packet: 11100000010 | Error: z
+# ** Note: $finish    : C:/intelFPGA_lite/18.1/Sistema/sensor_system_tb.v(50)
+#    Time: 100 ps  Iteration: 0  Instance: /sensor_system_tb
+# 1
+# Break in Module sensor_system_tb at C:/intelFPGA_lite/18.1/Sistema/sensor_system_tb.v line 50
+# End time: 15:23:44 on Dec 16,2024, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
