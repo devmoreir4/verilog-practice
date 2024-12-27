@@ -1,0 +1,61 @@
+|CodTeclado
+linha[0] => linha[0].IN1
+linha[1] => linha[1].IN1
+linha[2] => linha[2].IN1
+linha[3] => linha[3].IN1
+coluna[0] => coluna[0].IN1
+coluna[1] => coluna[1].IN1
+coluna[2] => coluna[2].IN1
+coluna[3] => coluna[3].IN1
+sete_seg[0] <= DecodificadorGray:decodificador.port1
+sete_seg[1] <= DecodificadorGray:decodificador.port1
+sete_seg[2] <= DecodificadorGray:decodificador.port1
+sete_seg[3] <= DecodificadorGray:decodificador.port1
+sete_seg[4] <= DecodificadorGray:decodificador.port1
+sete_seg[5] <= DecodificadorGray:decodificador.port1
+sete_seg[6] <= DecodificadorGray:decodificador.port1
+
+
+|CodTeclado|DriverTeclado:driver
+linha[0] => Decoder0.IN3
+linha[1] => Decoder0.IN2
+linha[2] => Decoder0.IN1
+linha[3] => Decoder0.IN0
+coluna[0] => Decoder0.IN7
+coluna[1] => Decoder0.IN6
+coluna[2] => Decoder0.IN5
+coluna[3] => Decoder0.IN4
+tecla[0] <= tecla[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+tecla[1] <= tecla[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+tecla[2] <= tecla[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+tecla[3] <= tecla[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CodTeclado|CodificadorGray:codificador
+tecla[0] => Decoder2.IN1
+tecla[1] => Decoder1.IN1
+tecla[1] => Decoder2.IN0
+tecla[2] => Decoder0.IN1
+tecla[2] => Decoder1.IN0
+tecla[3] => Decoder0.IN0
+tecla[3] => codigo[3].DATAIN
+codigo[0] <= codigo.DB_MAX_OUTPUT_PORT_TYPE
+codigo[1] <= codigo.DB_MAX_OUTPUT_PORT_TYPE
+codigo[2] <= codigo.DB_MAX_OUTPUT_PORT_TYPE
+codigo[3] <= tecla[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CodTeclado|DecodificadorGray:decodificador
+codigo[0] => Decoder0.IN3
+codigo[1] => Decoder0.IN2
+codigo[2] => Decoder0.IN1
+codigo[3] => Decoder0.IN0
+sete_seg[0] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+sete_seg[1] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+sete_seg[2] <= sete_seg.DB_MAX_OUTPUT_PORT_TYPE
+sete_seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+sete_seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+sete_seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+sete_seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

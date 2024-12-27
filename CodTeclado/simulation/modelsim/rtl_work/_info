@@ -1,0 +1,125 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/simulation/modelsim
+vCodificadorGray
+Z1 !s110 1730752316
+!i10b 1
+!s100 BJAZ]=I^_59z3JoQY999E1
+IV@@GZ>?hK4e8m1RYob?4^3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1729544364
+8C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodificadorGray.v
+FC:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodificadorGray.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1730752316.000000
+!s107 C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodificadorGray.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado|C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodificadorGray.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado}
+Z7 tCvgOpt 0
+n@codificador@gray
+vCodTeclado
+R1
+!i10b 1
+!s100 R:ah9:jm[@]iU0co[VC^K3
+INkE>5O`R8ej2H=O3?=@0R1
+R2
+R0
+w1730752226
+8C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodTeclado.v
+FC:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodTeclado.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodTeclado.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado|C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodTeclado.v|
+!i113 1
+R5
+R6
+R7
+n@cod@teclado
+vCodTecladoTB
+R1
+!i10b 1
+!s100 mMiWQ@nVSeS9G2hN;@mT>1
+IUIFm73fiPbC_YZ`QVeoEk2
+R2
+R0
+w1730752092
+8C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodTecladoTB.v
+FC:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodTecladoTB.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodTecladoTB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado|C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/CodTecladoTB.v|
+!i113 1
+R5
+R6
+R7
+n@cod@teclado@t@b
+vDecodificadorGray
+R1
+!i10b 1
+!s100 XDYmILokAJ`V_eZRMO?VZ2
+Ia_;>GSVG;`?4gA?d[5]>N3
+R2
+R0
+w1729549533
+8C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DecodificadorGray.v
+FC:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DecodificadorGray.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DecodificadorGray.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado|C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DecodificadorGray.v|
+!i113 1
+R5
+R6
+R7
+n@decodificador@gray
+vDriverTeclado
+R1
+!i10b 1
+!s100 35^:d5naW2m?;1QXCQjWW0
+I45?1@0f7CT`cWO6FmTDIC1
+R2
+R0
+w1728335338
+8C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DriverTeclado.v
+FC:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DriverTeclado.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DriverTeclado.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado|C:/Users/fbarr/OneDrive/Desktop/Quartus Project/SistDigitais/CodTeclado/DriverTeclado.v|
+!i113 1
+R5
+R6
+R7
+n@driver@teclado
