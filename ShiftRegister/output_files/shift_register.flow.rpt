@@ -1,5 +1,5 @@
 Flow report for shift_register
-Sun Dec 01 20:27:05 2024
+Thu Dec 26 23:31:06 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Sun Dec 01 20:27:05 2024       ;
+; Flow Status                 ; Successful - Thu Dec 26 23:31:06 2024       ;
 ; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name               ; shift_register                              ;
 ; Top-level Entity Name       ; shift_register                              ;
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/01/2024 20:26:54 ;
+; Start date & time ; 12/26/2024 23:30:55 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; shift_register      ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 37393277605997.173309561309060         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 37393277605997.173526665411892         ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;

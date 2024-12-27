@@ -1,5 +1,5 @@
-Analysis & Synthesis report for mux2x1
-Mon Dec 16 13:34:04 2024
+Analysis & Elaboration report for mux2x1
+Thu Dec 26 23:38:44 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -7,16 +7,10 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Synthesis Summary
-  3. Analysis & Synthesis Settings
-  4. Parallel Compilation
-  5. Analysis & Synthesis Source Files Read
-  6. Analysis & Synthesis Resource Usage Summary
-  7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Post-Synthesis Netlist Statistics for Top Partition
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration Settings
+  5. Analysis & Elaboration Messages
 
 
 
@@ -39,31 +33,42 @@ refer to the applicable agreement for further details.
 
 
 
-+-------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                  ;
-+---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Dec 16 13:34:04 2024       ;
-; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
-; Revision Name                   ; mux2x1                                      ;
-; Top-level Entity Name           ; mux2x1                                      ;
-; Family                          ; Cyclone V                                   ;
-; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 0                                           ;
-; Total pins                      ; 25                                          ;
-; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0                                           ;
-; Total DSP Blocks                ; 0                                           ;
-; Total HSSI RX PCSs              ; 0                                           ;
-; Total HSSI PMA RX Deserializers ; 0                                           ;
-; Total HSSI TX PCSs              ; 0                                           ;
-; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0                                           ;
-; Total DLLs                      ; 0                                           ;
-+---------------------------------+---------------------------------------------+
++-----------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                              ;
++-------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Thu Dec 26 23:38:44 2024       ;
+; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                 ; mux2x1                                      ;
+; Top-level Entity Name         ; mux2x1                                      ;
+; Family                        ; Cyclone V                                   ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
+; Total registers               ; N/A until Partition Merge                   ;
+; Total pins                    ; N/A until Partition Merge                   ;
+; Total virtual pins            ; N/A until Partition Merge                   ;
+; Total block memory bits       ; N/A until Partition Merge                   ;
+; Total PLLs                    ; N/A until Partition Merge                   ;
+; Total DLLs                    ; N/A until Partition Merge                   ;
++-------------------------------+---------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 24          ;
+; Maximum allowed            ; 12          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                                             ;
+; Analysis & Elaboration Settings                                                                                           ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
@@ -149,133 +154,25 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 24          ;
-; Maximum allowed            ; 12          ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
-
-
-+---------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                          ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path            ; Library ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------+---------+
-; mux2x1.v                         ; yes             ; User Verilog HDL File  ; C:/Users/Carlos/Desktop/mux2x1/mux2x1.v ;         ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------+---------+
-
-
-+--------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary            ;
-+---------------------------------------------+----------+
-; Resource                                    ; Usage    ;
-+---------------------------------------------+----------+
-; Estimate of Logic utilization (ALMs needed) ; 4        ;
-;                                             ;          ;
-; Combinational ALUT usage for logic          ; 8        ;
-;     -- 7 input functions                    ; 0        ;
-;     -- 6 input functions                    ; 0        ;
-;     -- 5 input functions                    ; 0        ;
-;     -- 4 input functions                    ; 0        ;
-;     -- <=3 input functions                  ; 8        ;
-;                                             ;          ;
-; Dedicated logic registers                   ; 0        ;
-;                                             ;          ;
-; I/O pins                                    ; 25       ;
-;                                             ;          ;
-; Total DSP Blocks                            ; 0        ;
-;                                             ;          ;
-; Maximum fan-out node                        ; Es~input ;
-; Maximum fan-out                             ; 8        ;
-; Total fan-out                               ; 57       ;
-; Average fan-out                             ; 0.98     ;
-+---------------------------------------------+----------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; |mux2x1                    ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 25   ; 0            ; |mux2x1             ; mux2x1      ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+------------------------------------------------------+
-; General Register Statistics                          ;
-+----------------------------------------------+-------+
-; Statistic                                    ; Value ;
-+----------------------------------------------+-------+
-; Total registers                              ; 0     ;
-; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
-; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
-; Number of registers using Preset             ; 0     ;
-+----------------------------------------------+-------+
-
-
-+-----------------------------------------------------+
-; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 8                           ;
-;     normal            ; 8                           ;
-;         3 data inputs ; 8                           ;
-; boundary_port         ; 25                          ;
-;                       ;                             ;
-; Max LUT depth         ; 1.00                        ;
-; Average LUT depth     ; 1.00                        ;
-+-----------------------+-----------------------------+
-
-
-+-------------------------------+
-; Elapsed Time Per Partition    ;
-+----------------+--------------+
-; Partition Name ; Elapsed Time ;
-+----------------+--------------+
-; Top            ; 00:00:00     ;
-+----------------+--------------+
-
-
-+-------------------------------+
-; Analysis & Synthesis Messages ;
-+-------------------------------+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Synthesis
+Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Dec 16 13:33:50 2024
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mux2x1 -c mux2x1
+    Info: Processing started: Thu Dec 26 23:38:31 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mux2x1 -c mux2x1 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file mux2x1.v
-    Info (12023): Found entity 1: mux2x1 File: C:/Users/Carlos/Desktop/mux2x1/mux2x1.v Line: 1
+    Info (12023): Found entity 1: mux2x1 File: C:/Users/Carlos/Documents/GitHub/verilog-practice/mux2x1/mux2x1.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mux2x1_tb.v
-    Info (12023): Found entity 1: mux2x1_tb File: C:/Users/Carlos/Desktop/mux2x1/mux2x1_tb.v Line: 1
+    Info (12023): Found entity 1: mux2x1_tb File: C:/Users/Carlos/Documents/GitHub/verilog-practice/mux2x1/mux2x1_tb.v Line: 1
 Info (12127): Elaborating entity "mux2x1" for the top level hierarchy
-Info (286030): Timing-Driven Synthesis is running
-Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 33 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 17 input pins
-    Info (21059): Implemented 8 output pins
-    Info (21061): Implemented 8 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4839 megabytes
-    Info: Processing ended: Mon Dec 16 13:34:04 2024
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:37
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4771 megabytes
+    Info: Processing ended: Thu Dec 26 23:38:44 2024
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:35
 
 

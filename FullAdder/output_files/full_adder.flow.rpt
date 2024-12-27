@@ -1,5 +1,5 @@
 Flow report for full_adder
-Sun Dec 01 19:27:22 2024
+Thu Dec 26 23:34:50 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Sun Dec 01 19:27:22 2024       ;
+; Flow Status                 ; Successful - Thu Dec 26 23:34:50 2024       ;
 ; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name               ; full_adder                                  ;
 ; Top-level Entity Name       ; full_adder                                  ;
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/01/2024 19:27:10 ;
+; Start date & time ; 12/26/2024 23:34:38 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; full_adder          ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 37393277605997.173309203011252         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 37393277605997.173526687811996         ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
@@ -91,8 +91,8 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:13     ; 1.0                     ; 4768 MB             ; 00:00:34                           ;
-; Total                  ; 00:00:13     ; --                      ; --                  ; 00:00:34                           ;
+; Analysis & Elaboration ; 00:00:13     ; 1.0                     ; 4768 MB             ; 00:00:35                           ;
+; Total                  ; 00:00:13     ; --                      ; --                  ; 00:00:35                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
